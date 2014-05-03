@@ -19,6 +19,10 @@
 		6C91348A1914FC630016F273 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9134721914FC630016F273 /* UIKit.framework */; };
 		6C9134921914FC630016F273 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6C9134901914FC630016F273 /* InfoPlist.strings */; };
 		6C9134941914FC630016F273 /* freelancersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9134931914FC630016F273 /* freelancersTests.m */; };
+		6C91349F191513850016F273 /* EWLUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C91349E191513850016F273 /* EWLUnit.m */; };
+		6C9134A2191513F70016F273 /* EWLHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9134A1191513F70016F273 /* EWLHero.m */; };
+		6C9134A5191514F00016F273 /* EWLWarrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9134A4191514F00016F273 /* EWLWarrior.m */; };
+		6C9134A8191515470016F273 /* EWLBattleField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9134A7191515470016F273 /* EWLBattleField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		6C91348F1914FC630016F273 /* freelancersTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "freelancersTests-Info.plist"; sourceTree = "<group>"; };
 		6C9134911914FC630016F273 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6C9134931914FC630016F273 /* freelancersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = freelancersTests.m; sourceTree = "<group>"; };
+		6C91349D191513850016F273 /* EWLUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLUnit.h; sourceTree = "<group>"; };
+		6C91349E191513850016F273 /* EWLUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLUnit.m; sourceTree = "<group>"; };
+		6C9134A0191513F70016F273 /* EWLHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLHero.h; sourceTree = "<group>"; };
+		6C9134A1191513F70016F273 /* EWLHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLHero.m; sourceTree = "<group>"; };
+		6C9134A3191514F00016F273 /* EWLWarrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLWarrior.h; sourceTree = "<group>"; };
+		6C9134A4191514F00016F273 /* EWLWarrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLWarrior.m; sourceTree = "<group>"; };
+		6C9134A6191515470016F273 /* EWLBattleField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLBattleField.h; sourceTree = "<group>"; };
+		6C9134A7191515470016F273 /* EWLBattleField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLBattleField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,14 @@
 			children = (
 				6C91347D1914FC630016F273 /* EWLAppDelegate.h */,
 				6C91347E1914FC630016F273 /* EWLAppDelegate.m */,
+				6C9134A6191515470016F273 /* EWLBattleField.h */,
+				6C9134A7191515470016F273 /* EWLBattleField.m */,
+				6C91349D191513850016F273 /* EWLUnit.h */,
+				6C91349E191513850016F273 /* EWLUnit.m */,
+				6C9134A0191513F70016F273 /* EWLHero.h */,
+				6C9134A1191513F70016F273 /* EWLHero.m */,
+				6C9134A3191514F00016F273 /* EWLWarrior.h */,
+				6C9134A4191514F00016F273 /* EWLWarrior.m */,
 				6C9134801914FC630016F273 /* Images.xcassets */,
 				6C9134751914FC630016F273 /* Supporting Files */,
 			);
@@ -241,6 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C91347B1914FC630016F273 /* main.m in Sources */,
+				6C91349F191513850016F273 /* EWLUnit.m in Sources */,
+				6C9134A5191514F00016F273 /* EWLWarrior.m in Sources */,
+				6C9134A8191515470016F273 /* EWLBattleField.m in Sources */,
+				6C9134A2191513F70016F273 /* EWLHero.m in Sources */,
 				6C91347F1914FC630016F273 /* EWLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
