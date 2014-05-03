@@ -1,7 +1,7 @@
 language: objective-c
 before_install:
   - gem install cocoapods
-  - pod setup
+  #- pod setup
   - pod install
 before_script:
   - export LANG=en_US.UTF-8
