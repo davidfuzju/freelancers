@@ -1,4 +1,7 @@
 language: objective-c
+before_install:
+  - gem install cocoapods
+  - pod install
 script:
-  - xctool -workspace freelancers.xcworkspace -scheme freelancers -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool -workspace freelancers.xcworkspace -scheme freelancers -sdk iphonesimulator7.0 ONLY_ACTIVE_ARCH=NO
   - xctool test -workspace freelancers.xcworkspace -scheme freelancersTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
