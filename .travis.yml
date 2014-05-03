@@ -7,4 +7,3 @@ before_script:
   - export LANG=en_US.UTF-8
 script:
   - xctool -workspace freelancers.xcworkspace -scheme freelancers -sdk iphonesimulator7.0 ONLY_ACTIVE_ARCH=NO
-  - xctool test -workspace freelancers.xcworkspace -scheme freelancersTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
