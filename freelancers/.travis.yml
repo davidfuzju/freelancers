@@ -1,0 +1,4 @@
+language: objective-c
+script:
+  - xctool -workspace freelancers.xcworkspace -scheme freelancers -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace freelancers.xcworkspace -scheme freelancersTests -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
