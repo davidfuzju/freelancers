@@ -23,6 +23,7 @@
 		6C9134A2191513F70016F273 /* EWLHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9134A1191513F70016F273 /* EWLHero.m */; };
 		6C9134A5191514F00016F273 /* EWLWarrior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9134A4191514F00016F273 /* EWLWarrior.m */; };
 		6C9134A8191515470016F273 /* EWLBattleField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9134A7191515470016F273 /* EWLBattleField.m */; };
+		6C9134AB1915F3E10016F273 /* EWLMage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9134AA1915F3E10016F273 /* EWLMage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		6C9134A4191514F00016F273 /* EWLWarrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLWarrior.m; sourceTree = "<group>"; };
 		6C9134A6191515470016F273 /* EWLBattleField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLBattleField.h; sourceTree = "<group>"; };
 		6C9134A7191515470016F273 /* EWLBattleField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLBattleField.m; sourceTree = "<group>"; };
+		6C9134A91915F3E10016F273 /* EWLMage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EWLMage.h; sourceTree = "<group>"; };
+		6C9134AA1915F3E10016F273 /* EWLMage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EWLMage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				6C9134A1191513F70016F273 /* EWLHero.m */,
 				6C9134A3191514F00016F273 /* EWLWarrior.h */,
 				6C9134A4191514F00016F273 /* EWLWarrior.m */,
+				6C9134A91915F3E10016F273 /* EWLMage.h */,
+				6C9134AA1915F3E10016F273 /* EWLMage.m */,
 				6C9134801914FC630016F273 /* Images.xcassets */,
 				6C9134751914FC630016F273 /* Supporting Files */,
 			);
@@ -261,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C91347B1914FC630016F273 /* main.m in Sources */,
+				6C9134AB1915F3E10016F273 /* EWLMage.m in Sources */,
 				6C91349F191513850016F273 /* EWLUnit.m in Sources */,
 				6C9134A5191514F00016F273 /* EWLWarrior.m in Sources */,
 				6C9134A8191515470016F273 /* EWLBattleField.m in Sources */,
@@ -462,6 +468,7 @@
 				6C9134991914FC630016F273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C91349A1914FC630016F273 /* Build configuration list for PBXNativeTarget "freelancersTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +477,7 @@
 				6C91349C1914FC630016F273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

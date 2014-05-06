@@ -10,7 +10,7 @@
 
 @interface EWLBattleField : NSObject
 
-- (id)initWithRadiant:(NSDictionary *)radiants dire:(NSDictionary *)dire;
+- (id)initWithRadiant:(NSArray *)radiants dire:(NSArray *)dires;
 
 - (void)fight;
 

@@ -10,4 +10,7 @@
 
 @interface EWLUnit : NSObject
 
+@property (readwrite, nonatomic) NSInteger health;
+@property (readwrite, nonatomic) NSInteger resource;
+
 @end

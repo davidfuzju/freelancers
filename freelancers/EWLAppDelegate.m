@@ -9,6 +9,7 @@
 #import "EWLAppDelegate.h"
 
 #import "EWLBattleField.h"
+#import "EWLWarrior.h"
 
 @interface EWLAppDelegate()
 
@@ -18,8 +19,15 @@
 @implementation EWLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
-    self.battleField = [[EWLBattleField alloc] init];
-    
+    NSArray *radiants = @[[[EWLWarrior alloc] init]];
+    NSLog(@"radiants is ready");
+    NSArray *dires = @[[[EWLWarrior alloc] init]];
+    NSLog(@"dires is ready");
+    self.battleField = [[EWLBattleField alloc] initWithRadiant:radiants
+                                                          dire:dires];
+    NSLog(@"battle field is ready");
+    [self.battleField fight];
+    NSLog(@"fight!!!");
     return YES;
 }
 

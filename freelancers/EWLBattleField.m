@@ -10,8 +10,8 @@
 
 @interface EWLBattleField()
 
-@property (readwrite, nonatomic, strong) NSDictionary *radiants;
-@property (readwrite, nonatomic, strong) NSDictionary *dires;
+@property (readwrite, nonatomic, strong) NSArray *radiants;
+@property (readwrite, nonatomic, strong) NSArray *dires;
 
 @end
 
@@ -20,11 +20,11 @@
 @synthesize radiants = radiants_;
 @synthesize dires = dires_;
 
-- (id)initWithRadiant:(NSDictionary *)radiants dire:(NSDictionary *)dire{
+- (id)initWithRadiant:(NSArray *)radiants dire:(NSArray *)dires{
     self = [super init];
     if (self){
         radiants_ = radiants;
-        dires_ = radiants;
+        dires_ = dires;
     }
     return self;
 }
